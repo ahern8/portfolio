@@ -5,6 +5,10 @@
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-mdl": "^1.11.0",
+    "react-pose": "^4.0.8",
+    "react-pose-text": "^3.1.0",
+    "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1"
   },
   "scripts": {
