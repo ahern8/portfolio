@@ -7,6 +7,8 @@ import { MDBContainer, MDBRow, MDBCol, MDBView, MDBMask, MDBAnimation } from "md
 import { MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBIcon } from 'mdbreact';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
 
+
+
 class Projects extends React.Component {
   constructor(props) {
     super(props);
@@ -21,7 +23,7 @@ class Projects extends React.Component {
         <MDBRow className="card-row">
         <MDBCol sm="12" md="12" lg="4" xl="4" className="card-col">
           <MDBAnimation type="rollIn" delay=".3s">
-          <MDBCard className="card" style={{ width: "22rem", height: "25rem" }}>
+          <MDBCard className="card hvr-grow" style={{ width: "22rem", height: "25rem" }}>
             <MDBCardImage className="img-fluid form" src={Image} waves />
             <MDBCardBody>
               <MDBCardTitle className="title" >React Form</MDBCardTitle>
@@ -38,7 +40,7 @@ class Projects extends React.Component {
           </MDBCol>
           <MDBCol sm="12" md="12" lg="4" xl="4"  className="card-col">
             <MDBAnimation type="rollIn" delay=".3s">
-            <MDBCard className="card" style={{ width: "22rem", height: "25rem" }}>
+            <MDBCard className="card hvr-grow" style={{ width: "22rem", height: "25rem" }}>
               <MDBCardImage className="img-fluid weather" src={WeatherImage} waves />
               <MDBCardBody>
                 <MDBCardTitle className="title">React Weather App</MDBCardTitle>
@@ -55,7 +57,7 @@ class Projects extends React.Component {
             </MDBCol>
             <MDBCol sm="12" md="12" lg="4" xl="4"  className="card-col">
               <MDBAnimation type="rollIn" delay=".3s">
-              <MDBCard className="card" style={{ width: "22rem", height: "25rem" }}>
+              <MDBCard className="card hvr-grow" style={{ width: "22rem", height: "25rem" }}>
                 <MDBCardImage className="img-fluid recipe" src={RecipeImage} waves />
                 <MDBCardBody>
                   <MDBCardTitle className="title">React Recipe App</MDBCardTitle>
@@ -105,7 +107,7 @@ class Projects extends React.Component {
         <MDBCol md="6">
         <MDBAnimation type="slideInDown" delay=".3s">
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-          <Tab>React</Tab>
+          <Tab className="tabs">React</Tab>
           <Tab className="tabs">Angular</Tab>
         </Tabs>
         </MDBAnimation>
