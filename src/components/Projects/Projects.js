@@ -21,7 +21,7 @@ class Projects extends React.Component {
      return(
        <div className="projects">
         <MDBRow className="card-row">
-        <MDBCol sm="12" md="12" lg="4" xl="4" className="card-col">
+        <MDBCol sm="12" md="12" lg="12" xl="4" className="card-col">
           <MDBAnimation type="fadeIn" delay=".3s">
           <MDBCard className="card hvr-grow" style={{ width: "22rem", height: "25rem" }}>
             <MDBCardImage className="img-fluid form" src={Image} waves />
@@ -38,7 +38,7 @@ class Projects extends React.Component {
           </MDBCard>
             </MDBAnimation>
           </MDBCol>
-          <MDBCol sm="12" md="12" lg="4" xl="4"  className="card-col">
+          <MDBCol sm="12" md="12" lg="12" xl="4"  className="card-col">
             <MDBAnimation type="fadeIn" delay=".3s">
             <MDBCard className="card hvr-grow" style={{ width: "22rem", height: "25rem" }}>
               <MDBCardImage className="img-fluid weather" src={WeatherImage} waves />
@@ -55,7 +55,7 @@ class Projects extends React.Component {
             </MDBCard>
               </MDBAnimation>
             </MDBCol>
-            <MDBCol sm="12" md="12" lg="4" xl="4"  className="card-col">
+            <MDBCol sm="12" md="12" lg="12" xl="4"  className="card-col">
               <MDBAnimation type="fadeIn" delay=".3s">
               <MDBCard className="card hvr-grow" style={{ width: "22rem", height: "25rem" }}>
                 <MDBCardImage className="img-fluid recipe" src={RecipeImage} waves />
