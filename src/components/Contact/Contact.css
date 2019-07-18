@@ -1,0 +1,192 @@
+#Contact h1 {
+  color: white;
+}
+
+.contact-me {
+  text-align: center;
+}
+
+.contact-card {
+  height: 100%;
+  border-radius: 15px;
+  opacity: .95;
+}
+
+.contact-card h2 {
+  font-family: 'Anton', sans-serif;
+  font-weight: bold;
+  width: 100%;
+}
+
+.first-col {
+
+  text-align: center;
+}
+
+.image {
+  border-radius: 45px;
+}
+
+.contact-info {
+  margin: auto;
+  width: 100%;
+  display: block;
+
+
+}
+.contact-list {
+  text-align: center;
+
+}
+.contact-list li {
+  font-size: 25px;
+  width: 100%;
+  font-family: 'Anton', sans-serif;
+
+}
+
+.contact-list li p {
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.first-col {
+  width: 100%;
+  margin: auto;
+}
+
+
+@media only screen and (max-width: 575px) {
+
+  .first-col {
+    width: 100%;
+  }
+
+  .contact-list li {
+    text-align: center;
+  }
+
+  .contact-list li p {
+    padding-top: 10px;
+    font-size: 20px;
+  }
+
+  .col-md-6 {
+    padding-left: 0;
+    padding-right: 0;
+
+  }
+
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+  .first-col {
+    width: 100%;
+  }
+
+  .contact-list li {
+    text-align: center;
+  }
+
+  .contact-list li p {
+    padding-top: 10px;
+    font-size: 20px;
+  }
+  .col-md-6 {
+    padding-left: 0;
+    padding-right: 0;
+
+  }
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  .contact-row {
+    margin-left: -5px;
+  }
+
+  .first-col {
+    width: 100%;
+  }
+
+
+  .contact-list li {
+    text-align: center;
+    width: 100%;
+
+  }
+
+  .contact-list li p {
+    padding-top: 10px;
+    font-size: 20px;
+    width: 100%;
+
+
+  }
+
+  .col-md-6 {
+    padding-left: 0;
+    padding-right: 0;
+
+
+  }
+
+  .contact-info {
+    padding-left: 20px;
+    padding-right: 20px;
+
+  }
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+  .first-col {
+    width: 100%;
+  }
+
+  .contact-list li {
+    text-align: center;
+  }
+
+  .contact-list li p {
+    padding-top: 10px;
+    font-size: 20px;
+  }
+
+  .col-md-6 {
+    padding-left: 0;
+    padding-right: 0;
+
+  }
+
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 2000px) {
+
+  .first-col {
+    width: 100%;
+  }
+
+  .contact-list li {
+    text-align: center;
+  }
+
+  .contact-list li p {
+    padding-top: 10px;
+    font-size: 20px;
+  }
+
+  .col-md-6 {
+    padding-left: 0;
+    padding-right: 0;
+
+  }
+
+
+}

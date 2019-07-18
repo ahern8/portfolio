@@ -1,0 +1,110 @@
+#Projects h1 {
+  color: white;
+}
+
+.tabs {
+  color: white !important
+}
+
+.mdl-tabs.is-upgraded .mdl-tabs__tab.is-active {
+  color: white !important
+}
+
+.mdl-tabs.is-upgraded .mdl-tabs__tab.is-active:after {
+  background: #404040 !important;
+}
+
+.card-row {
+  padding-top: 20px;
+}
+
+.card {
+  border-radius: 10px;
+  text-align: center;
+  opacity: .95;
+}
+
+.img-fluid {
+  border-radius: 10px;
+  background-image: url("react-basics.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+
+}
+
+.form {
+  height: 125px;
+}
+
+.weather {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 125px;
+}
+
+.recipe {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 125px;
+}
+
+.title {
+  text-align: center;
+}
+
+.text {
+  text-align: left;
+}
+
+.card-body {
+  padding-top: 10px;
+  opacity: 0.9;
+}
+
+.btn {
+  border-radius: 50px;
+}
+
+
+@media only screen and (max-width: 575px) {
+
+  .card-col {
+    padding-bottom: 10px;
+    padding-left: 100px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .card-col {
+    padding-bottom: 10px;
+    padding-left: 100px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .card-col {
+    padding-bottom: 10px;
+    padding-left: 100px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .card-col {
+    padding-bottom: 10px;
+    padding-left: 100px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 2000px) {
+  .card {
+    width: 100%;
+    margin: auto;
+    display: block;
+  }
+}

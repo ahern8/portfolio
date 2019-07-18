@@ -1,0 +1,77 @@
+#apppage .gradient {
+  background: rgba(3,61,0,.3);
+background: -moz-linear-gradient(left, rgba(3,61,0,.2) 0%, rgba(53,143,50,.2) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(3,61,0,.2)), color-stop(100%, rgba(53,143,50,.2)));
+background: -webkit-linear-gradient(left, rgba(3,61,0,.2) 0%, rgba(53,143,50,.2) 100%);
+background: -o-linear-gradient(left, rgba(3,61,0,.2) 0%, rgba(53,143,50,.2) 100%);
+background: -ms-linear-gradient(left, rgba(3,61,0,.2) 0%, rgba(53,143,50,.2) 100%);
+background: linear-gradient(to right, rgba(3,61,0,.2) 0%, rgba(53,143,50,.2) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#033d00', endColorstr='#358f32', GradientType=1 );
+}
+
+#apppage .view {
+  background-image: url("computer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+}
+
+#apppage h6 {
+  line-height: 1.7;
+}
+
+
+
+
+
+@media only screen and (max-width: 400px) {
+  #apppage .animated img {
+    max-height: 50vh;
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #apppage .animated img {
+    max-height: 35vh;
+    transform: translateX(-50%);
+    left: 50%;
+  }
+}
+
+@media (max-width: 900px) and (orientation: landscape) {
+  #apppage .animated img {
+    max-height: 50vh;
+    transform: translateX(-50%);
+    left: 50%;
+    position: relative;
+  }
+}
+@media (max-width: 1000px) and (orientation: landscape) {
+  #apppage .view {
+    min-height: 150vh;
+  }
+}
+
+
+.navbar.scrolling-navbar {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 50px;
+    align-items: center;
+  }
+
+  .primary-color, ul.stepper li.active a .circle, ul.stepper li.completed a .circle {
+  background-color: rgba(3,61,0,.3) !important
+  }

@@ -1,0 +1,44 @@
+.navbar {
+ background-color: #1a1a1a;
+
+
+
+
+  max-width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 0px;
+  padding-right: 0px;
+
+}
+
+.nav-item {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.nav-text {
+  color: white;
+  font-family: 'Roboto Slab', sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 20px;
+
+}
+
+.navbar a:hover{
+    color: #404040;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    display: inline-block;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}

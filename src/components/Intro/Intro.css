@@ -1,0 +1,35 @@
+
+#Intro h6 {
+  line-height: 1.7;
+  color: white;
+}
+
+#Intro h1 {
+  color: white;
+}
+
+#Intro {
+  padding-top: 200px;
+  padding-left: 10px;
+}
+
+
+.navbar.scrolling-navbar {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 50px;
+    align-items: center;
+  }
+
+  .primary-color, ul.stepper li.active a .circle, ul.stepper li.completed a .circle {
+  background-color: rgba(3,61,0,.3) !important
+  }
