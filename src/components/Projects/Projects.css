@@ -42,6 +42,13 @@
 .form {
   height: 125px;
 }
+.movies {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 125px;
+}
 
 .weather {
   background-repeat: no-repeat;
@@ -93,13 +100,30 @@
     transform: scale(1.1);
 }
 
+.col-sm-12 {
+
+}
+
 
 @media only screen and (max-width: 575px) {
 
   .card-col {
+
     padding-bottom: 10px;
     padding-left: 100px;
+
   }
+
+  .second-row {
+    padding-top: 0px;
+  }
+
+  .col-sm-12 {
+    padding-bottom: 30px;
+  }
+
+
+
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -108,7 +132,7 @@
     padding-left: 100px;
   }
   .card-row {
-    padding-top: 20px;
+    padding-top: 0px;
     width: 100%;
   }
 }

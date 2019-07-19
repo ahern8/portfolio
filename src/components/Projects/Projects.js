@@ -3,6 +3,7 @@ import "./Projects.css";
 import Image from './react-basics.png';
 import WeatherImage from './weatherapp.png';
 import RecipeImage from './recipeapp.png';
+import MoviesImage from './moviedbapp.png';
 import { MDBContainer, MDBRow, MDBCol, MDBView, MDBMask, MDBAnimation } from "mdbreact";
 import { MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBIcon } from 'mdbreact';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
@@ -38,12 +39,29 @@ class Projects extends React.Component {
           </MDBCard>
             </MDBAnimation>
           </MDBCol>
+          <MDBCol sm="12" md="12" lg="12" xl="4" className="card-col">
+            <MDBAnimation type="fadeIn" delay=".3s">
+            <MDBCard className="card hvr-grow" style={{ width: "22rem", height: "25rem" }}>
+              <MDBCardImage className="img-fluid movies" src={MoviesImage} waves />
+              <MDBCardBody>
+                <MDBCardTitle className="title" >Movies Searcher App</MDBCardTitle>
+                <MDBCardText className="text">
+                  <p>A movie searcher app where you can type a title of a movie and matching results will display from The Movie Database.</p>
+                </MDBCardText>
+                <MDBBtn href="https://github.com/ahern8/react-moviedb-search" target="_blank" color="pink" rounded size="md"><MDBIcon fab icon="github" className="left" /> <strong>Github</strong></MDBBtn>
+                <MDBBtn href="https://movedb-search-portfolio.herokuapp.com/" target="_blank" color="pink" rounded size="md">
+                   <MDBIcon icon="desktop" className="left" /> <strong>Live Demo</strong>
+                 </MDBBtn>
+              </MDBCardBody>
+            </MDBCard>
+              </MDBAnimation>
+            </MDBCol>
           <MDBCol sm="12" md="12" lg="12" xl="4"  className="card-col">
             <MDBAnimation type="fadeIn" delay=".3s">
             <MDBCard className="card hvr-grow" style={{ width: "22rem", height: "25rem" }}>
               <MDBCardImage className="img-fluid weather" src={WeatherImage} waves />
               <MDBCardBody>
-                <MDBCardTitle className="title">React Weather App</MDBCardTitle>
+                <MDBCardTitle className="title">Weather App</MDBCardTitle>
                 <MDBCardText className="text">
                   <p>A weather app that allows you to search a city and country and will display the current temperature, humidity, and conditions.</p>
                 </MDBCardText>
@@ -55,24 +73,29 @@ class Projects extends React.Component {
             </MDBCard>
               </MDBAnimation>
             </MDBCol>
-            <MDBCol sm="12" md="12" lg="12" xl="4"  className="card-col">
-              <MDBAnimation type="fadeIn" delay=".3s">
-              <MDBCard className="card hvr-grow" style={{ width: "22rem", height: "25rem" }}>
-                <MDBCardImage className="img-fluid recipe" src={RecipeImage} waves />
-                <MDBCardBody>
-                  <MDBCardTitle className="title">React Recipe App</MDBCardTitle>
-                  <MDBCardText className="text">
-                    <p>A recipe app that allows you to search for an ingredient and obtain recipes containing the ingredient.</p>
-                  </MDBCardText>
-                  <MDBBtn href="https://github.com/ahern8/react-recipe-app" target="_blank" color="pink" rounded size="md"><MDBIcon fab icon="github" className="left" /> <strong>Github</strong></MDBBtn>
-                  <MDBBtn href="https://recipe-app-portfolio.herokuapp.com/" target="_blank" color="pink" rounded size="md">
-                     <MDBIcon icon="desktop" className="left" /> <strong>Live Demo</strong>
-                   </MDBBtn>
-                </MDBCardBody>
-              </MDBCard>
-                </MDBAnimation>
-              </MDBCol>
+
         </MDBRow>
+
+        <MDBRow className="card-row second-row">
+          <MDBCol sm="12" md="12" lg="12" xl="4"  className="justify-content-center card-col">
+            <MDBAnimation type="fadeIn" delay=".3s">
+            <MDBCard className="card hvr-grow" style={{ width: "22rem", height: "25rem" }}>
+              <MDBCardImage className="img-fluid recipe" src={RecipeImage} waves />
+              <MDBCardBody>
+                <MDBCardTitle className="title">Recipe App</MDBCardTitle>
+                <MDBCardText className="text">
+                  <p>A recipe app that allows you to search for an ingredient and obtain recipes containing the ingredient.</p>
+                </MDBCardText>
+                <MDBBtn href="https://github.com/ahern8/react-recipe-app" target="_blank" color="pink" rounded size="md"><MDBIcon fab icon="github" className="left" /> <strong>Github</strong></MDBBtn>
+                <MDBBtn href="https://recipe-app-portfolio.herokuapp.com/" target="_blank" color="pink" rounded size="md">
+                   <MDBIcon icon="desktop" className="left" /> <strong>Live Demo</strong>
+                 </MDBBtn>
+              </MDBCardBody>
+            </MDBCard>
+              </MDBAnimation>
+            </MDBCol>
+        </MDBRow>
+
 
 
 
