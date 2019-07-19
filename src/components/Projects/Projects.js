@@ -4,6 +4,7 @@ import Image from './react-basics.png';
 import WeatherImage from './weatherapp.png';
 import RecipeImage from './recipeapp.png';
 import MoviesImage from './moviedbapp.png';
+import CalculatorImage from './calculator.png';
 import { MDBContainer, MDBRow, MDBCol, MDBView, MDBMask, MDBAnimation } from "mdbreact";
 import { MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBIcon } from 'mdbreact';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
@@ -39,17 +40,17 @@ class Projects extends React.Component {
           </MDBCard>
             </MDBAnimation>
           </MDBCol>
-          <MDBCol sm="12" md="12" lg="12" xl="4" className="card-col">
+          <MDBCol sm="12" md="12" lg="12" xl="4"  className="justify-content-center card-col">
             <MDBAnimation type="fadeIn" delay=".3s">
             <MDBCard className="card hvr-grow" style={{ width: "22rem", height: "25rem" }}>
-              <MDBCardImage className="img-fluid movies" src={MoviesImage} waves />
+              <MDBCardImage className="img-fluid calculator" src={CalculatorImage} waves />
               <MDBCardBody>
-                <MDBCardTitle className="title" >Movies Searcher App</MDBCardTitle>
+                <MDBCardTitle className="title">Calculator App</MDBCardTitle>
                 <MDBCardText className="text">
-                  <p>A movie searcher app where you can type a title of a movie and matching results will display from The Movie Database.</p>
+                  <p>A calculator app that allows you to perform the basic addition, subtraction, multiplication, and division functions.</p>
                 </MDBCardText>
-                <MDBBtn href="https://github.com/ahern8/react-moviedb-search" target="_blank" color="pink" rounded size="md"><MDBIcon fab icon="github" className="left" /> <strong>Github</strong></MDBBtn>
-                <MDBBtn href="https://movedb-search-portfolio.herokuapp.com/" target="_blank" color="pink" rounded size="md">
+                <MDBBtn href="https://github.com/ahern8/react-calculator-app" target="_blank" color="pink" rounded size="md"><MDBIcon fab icon="github" className="left" /> <strong>Github</strong></MDBBtn>
+                <MDBBtn href="https://calculator-app-portfolio.herokuapp.com/" target="_blank" color="pink" rounded size="md">
                    <MDBIcon icon="desktop" className="left" /> <strong>Live Demo</strong>
                  </MDBBtn>
               </MDBCardBody>
@@ -94,6 +95,23 @@ class Projects extends React.Component {
             </MDBCard>
               </MDBAnimation>
             </MDBCol>
+            <MDBCol sm="12" md="12" lg="12" xl="4" className="card-col">
+              <MDBAnimation type="fadeIn" delay=".3s">
+              <MDBCard className="card hvr-grow" style={{ width: "22rem", height: "25rem" }}>
+                <MDBCardImage className="img-fluid movies" src={MoviesImage} waves />
+                <MDBCardBody>
+                  <MDBCardTitle className="title" >Movies Searcher App</MDBCardTitle>
+                  <MDBCardText className="text">
+                    <p>A movie searcher app where you can type a title of a movie and matching results will display from The Movie Database.</p>
+                  </MDBCardText>
+                  <MDBBtn href="https://github.com/ahern8/react-moviedb-search" target="_blank" color="pink" rounded size="md"><MDBIcon fab icon="github" className="left" /> <strong>Github</strong></MDBBtn>
+                  <MDBBtn href="https://movedb-search-portfolio.herokuapp.com/" target="_blank" color="pink" rounded size="md">
+                     <MDBIcon icon="desktop" className="left" /> <strong>Live Demo</strong>
+                   </MDBBtn>
+                </MDBCardBody>
+              </MDBCard>
+                </MDBAnimation>
+              </MDBCol>
         </MDBRow>
 
 
