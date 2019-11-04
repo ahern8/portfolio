@@ -3,11 +3,11 @@
 }
 
 .tabs {
-  color: white !important
+  color: white !important;
 }
 
 .mdl-tabs.is-upgraded .mdl-tabs__tab.is-active {
-  color: white !important
+  color: white !important;
 }
 
 .mdl-tabs.is-upgraded .mdl-tabs__tab.is-active:after {
@@ -15,7 +15,7 @@
 }
 
 .mdl-ripple {
-  background: white !important
+  background: white !important;
 }
 
 .card-row {
@@ -26,7 +26,7 @@
 .card {
   border-radius: 10px;
   text-align: center;
-  opacity: .95;
+  opacity: 0.95;
 }
 
 .img-fluid {
@@ -36,13 +36,44 @@
   background-size: cover;
   background-position: center center;
   width: 100%;
-
 }
 
 .form {
   height: 125px;
 }
 .movies {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 125px;
+}
+
+.crwn {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 125px;
+}
+
+.natours {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 125px;
+}
+
+.nexter {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 125px;
+}
+
+.trillo {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -92,34 +123,29 @@
 }
 
 .hvr-grow {
-    display: inline-block;
-    vertical-align: middle;
-    transform: translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    transition-duration: 0.3s;
-    transition-property: transform;
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
 }
 
 .hvr-grow:hover,
 .hvr-grow:focus,
 .hvr-grow:active {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .col-sm-12 {
-
 }
 
-
 @media only screen and (max-width: 575px) {
-
   .card-col {
-
     padding-bottom: 10px;
     padding-left: 100px;
-
   }
 
   .second-row {
@@ -129,9 +155,6 @@
   .col-sm-12 {
     padding-bottom: 30px;
   }
-
-
-
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -165,7 +188,6 @@
     padding-top: 20px;
     width: 100%;
   }
-
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 2000px) {
@@ -179,5 +201,4 @@
     padding-top: 20px;
     width: 100%;
   }
-
 }
